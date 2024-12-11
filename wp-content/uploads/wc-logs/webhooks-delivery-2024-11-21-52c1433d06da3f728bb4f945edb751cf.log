@@ -1,0 +1,56 @@
+2024-11-21T20:34:22+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 50a477f0d9198b5e9a43613ea2e0bf6a
+            [Date] => Nov 21, 2024 @ 20:34
+            [URL] => https://api.printful.com/hook/woocommerce?store=14558829
+            [Duration] => 0.31508
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.4.1 Hookshot (WordPress/6.7)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.saintt.ca/
+                            [X-WC-Webhook-Topic] => action.woocommerce_order_status_processing
+                            [X-WC-Webhook-Resource] => action
+                            [X-WC-Webhook-Event] => woocommerce_order_status_processing
+                            [X-WC-Webhook-Signature] => 5L80FVYL++QW1lQLuwUtynbWCCiw/+ieZdLmEoeQnLk=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 50a477f0d9198b5e9a43613ea2e0bf6a
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Thu, 21 Nov 2024 20:34:22 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [vary] => Accept-Encoding
+                                    [cf-cache-status] => DYNAMIC
+                                    [set-cookie] => __cf_bm=81L1b4AfvO6cTnLJiobBL5rLz0L0xXyRpELcCuxtaic-1732221262-1.0.1.1-7lXqTY7pn7ZOW5HL9AlHwGjAGLeSD2pH_IWsvseHaQrFJ3YVxM0HPoZpmQ0B_5OxzLtlO5eQMjoDdKaWyQJCAg; path=/; expires=Thu, 21-Nov-24 21:04:22 GMT; domain=.printful.com; HttpOnly; Secure; SameSite=None
+                                    [strict-transport-security] => max-age=31536000; includeSubDomains; preload
+                                    [x-content-type-options] => nosniff
+                                    [server] => cloudflare
+                                    [cf-ray] => 8e6375c8bb78431c-EWR
+                                    [content-encoding] => gzip
+                                    [alt-svc] => h3=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
